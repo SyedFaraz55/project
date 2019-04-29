@@ -60,7 +60,7 @@ if(mail($to,$subject,$message, implode("\r\n", $headers))) {
         <section class="clean-block clean-form dark">
             <div class="container-fluid">
                 <div class="block-heading">
-                    <h2 class="text-info">Contact Us</h2>
+                    <!-- <h2 class="text-info">Contact Us</h2> -->
                 </div>
                 <div class="row">
                     <div class="col-md-6">

@@ -63,7 +63,7 @@ function validate_user($mail,$pass) {
         <section class="clean-block clean-form dark">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info" style="margin-top:40px;margin-bottom:-10px;">Log In</h2>
+                    <!-- <h2 class="text-info" style="margin-top:40px;margin-bottom:-10px;">Log In</h2> -->
                 </div>
                 <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
                 <div class="<?php echo $class; ?>" role="<?php echo $role; ?>">

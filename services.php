@@ -14,7 +14,7 @@
             <section class="clean-block clean-info dark" style="margin-bottom:-100px;">
                 <div class="container">
                     <div class="block-heading" style="background-color:rgb(246,246,246);">
-                        <h2 class="text-left text-info" style="padding-top:40px;">Services</h2>
+                        <!-- <h2 class="text-left text-info" style="padding-top:40px;">Services</h2> -->
                         <p class="text-left" style="max-width:100%;background-color:#f6f6f6;"><br><strong>OSHA (ALL OFFICES):</strong><br><br>There are more than 8 OSHA regulations and guidelines that physician offices must be in compliance with. OSHA can inspect your facility at any time. OSHA can fine you for any violations.
                             Many physicians are only in compliance with the Bloodborne Pathogen Standard and have not addressed other OSHA standards. Ninety percent of the offices inspected are cited and fined for violation related to Hazardous Communication,
                             Occupational Exposure, Tuberculosis or Ergonomic standards! Safety is more important now than ever before. All physicians are responsible to provide a safe work environment and educate their employees on safety policies. All

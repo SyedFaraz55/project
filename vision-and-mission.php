@@ -13,7 +13,7 @@
         <section class="clean-block clean-faq dark">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info"><br>Point of Care Consults VISION AND MISSION<br></h2>
+                    <!-- <h2 class="text-info"><br>Point of Care Consults VISION AND MISSION<br></h2> -->
                 </div>
                 <div class="block-content">
                     <div class="faq-item">

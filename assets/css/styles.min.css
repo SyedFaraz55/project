@@ -1,1 +1,6 @@
-.brands{color:#313437;background-color:#fff}.brands a{display:block;text-align:center;padding:40px 0}@media (max-width:767px){.brands a{padding:30px 0}}.brands a img{display:inline-block;margin:10px 20px;vertical-align:middle}.clean-block .block-heading{width:100%;padding:10px;background-color:#f6f6f6}
+body {
+  color:black;
+}
+
+.brands
+{color:#313437;background-color:#fff}.brands a{display:block;text-align:center;padding:40px 0}@media (max-width:767px){.brands a{padding:30px 0}}.brands a img{display:inline-block;margin:10px 20px;vertical-align:middle}.clean-block .block-heading{width:100%;padding:10px;background-color:#f6f6f6}

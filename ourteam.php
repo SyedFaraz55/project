@@ -15,7 +15,7 @@
               <div style="margin-top:20px;">
 
               </div>
-                <h2 class="text-center">Our Team </h2>
+                <!-- <h2 class="text-center">Our Team </h2> -->
             </div>
             <div class="row justify-content-center people" style="margin-top:100px;margin-bottom:50px;">
                 <div class="col-md-6 col-lg-4 item">

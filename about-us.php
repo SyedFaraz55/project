@@ -1,6 +1,6 @@
 <?php include 'inc/header.php'; ?>
 <div style="margin-top:60px;"></div>
-<div style="background-color:#3B99E0;padding:20px;;" class="container-fluid">
+<div style="background-color:#3B99E0;padding:6px;;" class="container-fluid">
   <h3 style="margin-left:54px;color:white;margin-top:20px;">ABOUT US</h3>
   <nav aria-label="breadcrumb" style="margin-left:40px;" >
   <ol class="breadcrumb" style="background-color:#3B99E0;">
@@ -19,7 +19,7 @@
                                 <section class="clean-block clean-info dark" style="margin-top:40px;">
                                     <div class="container">
                                         <div class="block-heading">
-                                            <h2 class="text-left text-info" style="margin-top:10px;">About US</h2>
+                                            <!-- <h2 class="text-left text-info" style="margin-top:10px;">About US</h2> -->
                                             <p class="text-left" style="max-width:100%;"><br>P.O.C. Consults has been providing federal regulatory assistance to physicians and their office staff since 1989. Our consulting programs and presentations have been used by over 2,000 physician offices
                                                 in the N.J., PA. and Florida. P.O.C. Consults offers a complete line of services, policy manuals and accredited training programs customized to the regulatory needs of the specialty of your practice. Over
                                                 2000 physician, dental and podiatry offices have taken advantage our programs. Our manuals are sold nationally. We offer expert support and make regulatory compliance as simple as possible.<br><br><br>Our
