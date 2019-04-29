@@ -4,8 +4,8 @@
   <h3 style="margin-left:54px;color:white;margin-top:20px;">POC STRATEGY</h3>
   <nav aria-label="breadcrumb" style="margin-left:40px;" >
   <ol class="breadcrumb" style="background-color:#3B99E0;">
-    <li class="breadcrumb-item"><a href="#" style="color:white;">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><span style="color:white;">pocstrategy</span></li>
+    <li class="breadcrumb-item"><a href="index.php" style="color:white;">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><span style="color:white;">POC Strategy</span></li>
   </ol>
 </nav>
 </div>
@@ -13,7 +13,6 @@
         <section class="clean-block clean-faq dark">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info"><br>Point of Care Consults Strategy<br></h2>
                 </div>
                 <div class="block-content">
                     <div class="faq-item">

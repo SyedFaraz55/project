@@ -56,7 +56,7 @@
                 <h2>Join our Newsletter</h2><input type="text" placeholder="Email" class="form-control"><button class="btn btn-outline-light" type="button">Subscribe</button></div>
         </section>
     </main>
-    <div class="brands"><a href="#"> <img src="assets/img/cms logo.png"><img src="assets/img/lyft.png"><img src="assets/img/shopify.png"><img src="assets/img/pinterest.png"></a></div>
+    <div class="brands"><a href="#"> <img src="assets/img/cms logo.png"><img src=""><img src=""><img src=""></a></div>
 
     <?php include 'inc/footer.php'; ?>
 </body>

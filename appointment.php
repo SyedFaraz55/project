@@ -66,7 +66,16 @@ if(isset($_POST['submit'])) {
 
  ?>
 <?php include 'inc/header.php';?>
-
+<div style="margin-top:60px;"></div>
+<div style="background-color:#3B99E0;padding:20px;;" class="container-fluid">
+  <h3 style="margin-left:54px;color:white;margin-top:20px;">Request an Appointment</h3>
+  <nav aria-label="breadcrumb" style="margin-left:40px;" >
+  <ol class="breadcrumb" style="background-color:#3B99E0;">
+    <li class="breadcrumb-item"><a href="index.php" style="color:white;">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><span style="color:white;">Request an Appointment</span></li>
+  </ol>
+</nav>
+</div>
     <main class="page registration-page">
         <section class="clean-block ">
             <div class="container ">
@@ -164,75 +173,11 @@ if(isset($_POST['submit'])) {
       <input type="email" class="form-control" id="inputEmail4" placeholder="someone@example.com" name="email">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputState">State</label>
+      <label for="inputState">Country</label>
 
       <select id="inputState" class="form-control" name="opt2">
       <option value="	Select">	Select</option>
-	<option value="	Aetna Choice POS ">	Aetna Choice POS </option>
-	<option value="Aetna Elect Choice EPO and EPO ">Aetna Elect Choice EPO and EPO </option>
-	<option value="Aetna Health Network Options ">Aetna Health Network Options </option>
-	<option value="Aetna HMO ">Aetna HMO </option>
-	<option value="Aetna Managed Choice ">Aetna Managed Choice </option>
-	<option value="Aetna Managed Choice POS ">Aetna Managed Choice POS </option>
-	<option value="Aetna Medicare (SM) Plan (HMO) ">Aetna Medicare (SM) Plan (HMO) </option>
-	<option value="Aetna Medicare (SM) Plan (PPO) ">Aetna Medicare (SM) Plan (PPO) </option>
-	<option value="Aetna Open Access Aetna Select (Aetna HealthFund) ">Aetna Open Access Aetna Select (Aetna HealthFund) </option>
-	<option value="Aetna Open Access Elect Choice EPO (Aetna HealthFund) ">Aetna Open Access Elect Choice EPO (Aetna HealthFund) </option>
-	<option value="Aetna Open Access Managed Choice POS (Aetna HealthFund) ">Aetna Open Access Managed Choice POS (Aetna HealthFund) </option>
-	<option value="Aetna Open Choice PPO ">Aetna Open Choice PPO </option>
-	<option value="Aetna Open Choice PPO (Aetna HealthFund)">Aetna Open Choice PPO (Aetna HealthFund)</option>
-	<option value="Aetna Premier Care Network ">Aetna Premier Care Network </option>
-	<option value="Aetna QPOS ">Aetna QPOS </option>
-	<option value="Aetna Savings Plus ">Aetna Savings Plus </option>
-	<option value="Aetna Select ">Aetna Select </option>
-	<option value="Aetna Select (Open Access)">Aetna Select (Open Access)</option>
-	<option value="Aetna Whole Health Chicago">Aetna Whole Health Chicago</option>
-	<option value="Beechstreet PPO Network">Beechstreet PPO Network</option>
-	<option value="Blue Cross Blue Shield - PPO Products&quot;>Blue Cross Blue Shield - PPO Products ">Blue Cross Blue Shield - PPO Products&quot;&gt;Blue Cross Blue Shield - PPO Products </option>
-	<option value="Blue Cross Blue Shield Community ">Blue Cross Blue Shield Community </option>
-	<option value="Blue Cross Blue Shield HMOI">Blue Cross Blue Shield HMOI</option>
-	<option value="Blue Cross Blue Shield Medicare Advantage PPO Plan ">Blue Cross Blue Shield Medicare Advantage PPO Plan </option>
-	<option value="Cigna HMO">Cigna HMO</option>
-	<option value="Cigna LocalPlus ">Cigna LocalPlus </option>
-	<option value="Cigna Open Access Plus (OAP)">Cigna Open Access Plus (OAP)</option>
-	<option value="Cigna Open Access Plus with CareLink (OAPC)">Cigna Open Access Plus with CareLink (OAPC)</option>
-	<option value="Cigna POS ">Cigna POS </option>
-	<option value="Cigna PPO ">Cigna PPO </option>
-	<option value="Cigna-HealthSpring Advantage HMO ">Cigna-HealthSpring Advantage HMO </option>
-	<option value="Cigna-HealthSpring Premier HMO-POS ">Cigna-HealthSpring Premier HMO-POS </option>
-	<option value="Cigna-HealthSpring Primary HMO&quot;>Cigna-HealthSpring Primary HMO ">Cigna-HealthSpring Primary HMO&quot;&gt;Cigna-HealthSpring Primary HMO </option>
-	<option value="Cofinity PPO (an Aetna Company) ">Cofinity PPO (an Aetna Company) </option>
-	<option value="Community Care Partners ">Community Care Partners </option>
-	<option value="Coventry (PPO)">Coventry (PPO)</option>
-	<option value="Coventry Health Care Elect Choice EPO ">Coventry Health Care Elect Choice EPO </option>
-	<option value="Coventry Health Care First Health PPO ">Coventry Health Care First Health PPO </option>
-	<option value="Galaxy Health PPO Network ">Galaxy Health PPO Network </option>
-	<option value="Great West PPO/POS ">Great West PPO/POS </option>
-	<option value="Harken Health - an Affiliate of United Healthcare ">Harken Health - an Affiliate of United Healthcare </option>
-	<option value="Healthcare&#39;s Finest Network (HFN)">Healthcare&#39;s Finest Network (HFN)</option>
-	<option value="HealthSpring ">HealthSpring </option>
-	<option value="Humana ">Humana </option>
-	<option value="Humana - All Commercial Plans (including Choice Care) ">Humana - All Commercial Plans (including Choice Care) </option>
-	<option value="Humana - NorthShore Complete Care ">Humana - NorthShore Complete Care </option>
-	<option value="Humana Gold Plus HMO ">Humana Gold Plus HMO </option>
-	<option value="Humana Gold Plus PFFS ">Humana Gold Plus PFFS </option>
-	<option value="Humana National ">Humana National </option>
-	<option value="Humana/ChoiceCare Network PPO ">Humana/ChoiceCare Network PPO </option>
-	<option value="HumanaChoice PPO ">HumanaChoice PPO </option>
-	<option value="Illinicare Health Plan ">Illinicare Health Plan </option>
-	<option value="Illinicare ICP ">Illinicare ICP </option>
-	<option value="Illinois Department of Public Aid (IDPA)">Illinois Department of Public Aid (IDPA)</option>
-	<option value="Land of Lincoln Health Traditional PPO ">Land of Lincoln Health Traditional PPO </option>
-	<option value="Medicare ">Medicare </option>
-	<option value="Meridian Complete ">Meridian Complete </option>
-	<option value="Multiplan and PHCS PPO Network (Including PHCS Savility) ">Multiplan and PHCS PPO Network (Including PHCS Savility) </option>
-	<option value="NorthShore Employee Network ">NorthShore Employee Network </option>
-	<option value="Preferred Plan PPO ">Preferred Plan PPO </option>
-	<option value="Three Rivers Provider PPO Network (TRPN) ">Three Rivers Provider PPO Network (TRPN) </option>
-	<option value="Tricare ">Tricare </option>
-	<option value="Unicare ">Unicare </option>
-	<option value="United Healthcare - All Commercial Plans ">United Healthcare - All Commercial Plans </option>
-	<option value="United Healthcare - All Medicare Plans ">United Healthcare - All Medicare Plans </option>
+	<option value="	USA ">	United State Of America</option>
 	<option value="Other ">Other </option>
       </select>
     </div>

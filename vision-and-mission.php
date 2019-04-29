@@ -4,8 +4,8 @@
   <h3 style="margin-left:54px;color:white;margin-top:20px;">VISION & MISSION</h3>
   <nav aria-label="breadcrumb" style="margin-left:40px;" >
   <ol class="breadcrumb" style="background-color:#3B99E0;">
-    <li class="breadcrumb-item"><a href="#" style="color:white;">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><span style="color:white;">vision & mission</span></li>
+    <li class="breadcrumb-item"><a href="index.php" style="color:white;">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><span style="color:white;">Vision & Mission</span></li>
   </ol>
 </nav>
 </div>
