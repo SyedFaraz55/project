@@ -50,8 +50,8 @@ function validate_user($mail,$pass) {
 ?>
 <?php include 'inc/header.php';?>
 <div style="margin-top:60px;"></div>
-<div style="background-color:#3B99E0;padding:20px;;" class="container-fluid">
-  <h3 style="margin-left:54px;color:white;margin-top:20px;">LOGIN</h3>
+<div style="background-color:#3B99E0;padding:4px;;" class="container-fluid">
+  <h3 style="margin-left:54px;color:white;margin-top:30px;">LOGIN</h3>
   <nav aria-label="breadcrumb" style="margin-left:40px;" >
   <ol class="breadcrumb" style="background-color:#3B99E0;">
     <li class="breadcrumb-item"><a href="index.php" style="color:white;">Home</a></li>

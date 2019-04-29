@@ -1,7 +1,7 @@
 <?php include 'inc/header.php';?>
 <div style="margin-top:60px;"></div>
-<div style="background-color:#3B99E0;padding:20px;;" class="container-fluid">
-  <h3 style="margin-left:54px;color:white;margin-top:20px;">VISION & MISSION</h3>
+<div style="background-color:#3B99E0;padding:4px;;" class="container-fluid">
+  <h3 style="margin-left:54px;color:white;margin-top:30px;">VISION & MISSION</h3>
   <nav aria-label="breadcrumb" style="margin-left:40px;" >
   <ol class="breadcrumb" style="background-color:#3B99E0;">
     <li class="breadcrumb-item"><a href="index.php" style="color:white;">Home</a></li>
@@ -9,27 +9,27 @@
   </ol>
 </nav>
 </div>
-    <main class="page faq-page">
-        <section class="clean-block clean-faq dark">
+    <main class="page faq-page" style="padding:30px;">
+        <section class="clean-faq dark">
             <div class="container">
                 <div class="block-heading">
                     <!-- <h2 class="text-info"><br>Point of Care Consults VISION AND MISSION<br></h2> -->
                 </div>
-                <div class="block-content">
-                    <div class="faq-item">
+                <div class="block-content" style="padding:10px;">
+                    <div class="faq-item" style="padding:10px;">
                         <h4 class="question">Our Values</h4>
                         <div class="answer">
                             <p>We share a responsibility to develop and promote services and solutions to help improve patient safety and care.<br><br></p>
                         </div>
                     </div>
-                    <div class="faq-item">
+                    <div class="faq-item" style="padding:10px;">
                         <h4 class="question">Our Mission</h4>
                         <div class="answer">
                             <p>Create and enable unique technologies, services and programs that drive sustainable value to healthcare providers and those in their compassionate care. In a socially responsible manner, continue to assist providers with tools
                                 to support their primary mission.<br></p>
                         </div>
                     </div>
-                    <div class="faq-item">
+                    <div class="faq-item" style="padding:10px;">
                         <h4 class="question">Our Strategy<br></h4>
                         <div class="answer">
                             <p><br>We focus on areas where clinical evidence indicates a need to reduce risk and improve patient care, such as:<br>• Improve Patient Satisfaction – Press Ganey<br>• Support the hospitals strategy to contain Average Length

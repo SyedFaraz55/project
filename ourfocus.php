@@ -1,7 +1,7 @@
 <?php include 'inc/header.php';?>
 <div style="margin-top:60px;"></div>
-<div style="background-color:#3B99E0;padding:20px;;" class="container-fluid">
-  <h3 style="margin-left:54px;color:white;margin-top:20px;">OUR FOCUS</h3>
+<div style="background-color:#3B99E0;padding:4px;;" class="container-fluid">
+  <h3 style="margin-left:54px;color:white;margin-top:30px;">OUR FOCUS</h3>
   <nav aria-label="breadcrumb" style="margin-left:40px;" >
   <ol class="breadcrumb" style="background-color:#3B99E0;">
     <li class="breadcrumb-item"><a href="index.php" style="color:white;">Home</a></li>
@@ -9,8 +9,8 @@
   </ol>
 </nav>
 </div>
-    <main class="page faq-page">
-        <section class="clean-block clean-faq dark">
+    <main class="page faq-page" style="padding:30px">
+        <section class="clean-faq dark">
             <div class="container">
                 <div class="block-heading"></div>
                 <div class="block-content">
