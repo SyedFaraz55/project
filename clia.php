@@ -1,37 +1,14 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-</head>
-
-<body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container-fluid"><a class="navbar-brand logo" href="#" style="background-image:url(&quot;assets/img/pointofcare logo.jpg&quot;);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a><button class="navbar-toggler" data-toggle="collapse"
-                data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html" style="padding-right:0px;margin-right:0px;">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">About Us</a></li>
-                    <li class="nav-item" role="presentation" style="padding-right:0px;"><a class="nav-link" href="services.html" style="padding-right:14px;">Services</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="padding-right:20px;">Who we are</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="ourfocus.html" style="padding-right:0px;">Our Focus</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="ourteam.html" style="padding-right:0px;">Our Team</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">login</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Become a member</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<?php include 'inc/header.php';?>
+<div style="margin-top:60px;"></div>
+<div style="background-color:#3B99E0;padding:20px;;" class="container-fluid">
+  <h3 style="margin-left:54px;color:white;margin-top:20px;">CLIA</h3>
+  <nav aria-label="breadcrumb" style="margin-left:40px;" >
+  <ol class="breadcrumb" style="background-color:#3B99E0;">
+    <li class="breadcrumb-item"><a href="#" style="color:white;">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><span style="color:white;">clia</span></li>
+  </ol>
+</nav>
+</div>
     <main class="page faq-page">
         <section class="clean-block clean-faq dark">
             <div class="container">
@@ -67,42 +44,7 @@
             </div>
         </section>
     </main>
-    <footer class="page-footer dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h5>Get started</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Legal</h5>
-                    <ul>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <p>© 2019 All right Reserved&nbsp;</p>
-        </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+  <?php include 'inc/footer.php';?>
 </body>
 
 </html>
